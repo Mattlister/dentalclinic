@@ -1,8 +1,8 @@
 img {
+    width: 85px;
     resize: both;
   overflow: auto;
-  padding-bottom: 40px;
-  opacity: 0.7;
+
  
 }
 
