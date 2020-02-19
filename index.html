@@ -60,18 +60,18 @@
 
         <div id="map"></div>
         <h3>Find Us Here</h3>
-    <!--The div eleoment for the map -->
+    <!--div map element -->
     <div id="map"></div>
     <script>
-// Initialize and add the map
+// Initializes the map
 function initMap() {
   // The location of the Dentists (actually Bigfoot's location)
-  var uluru = {lat: 53.555306, lng: -1.479083};
+  var Barnsley = {lat: 53.555306, lng: -1.479083};
   // The map, centered at Bigfoot's location
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
+      document.getElementById('map'), {zoom: 4, center: Barnsley});
   // The marker, positioned at Bigfoot's location
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  var marker = new google.maps.Marker({position: Barnsley, map: map});
 }
     </script>
 
