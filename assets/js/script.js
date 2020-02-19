@@ -26,3 +26,15 @@ function mapMarker(map) {
               	position : myLatLng
             }); // Set the first marker on the map
 }
+
+function addMarker(destinations, map) {
+    for (var i = 0; i < destinations.length; i++) {
+      myMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(destinations[i].lat, destinations[i].lng),
+        title: destinations [i].name,
+        draggable: true,
+        map: map,
+        icon: destinations[i].icon
+      });
+    }
+  }
