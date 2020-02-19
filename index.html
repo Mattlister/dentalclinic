@@ -58,9 +58,63 @@
                         <a href="" class="btn btn-lg btn-success" data-toggle="modal" data-target="#modalRegisterForm">Make an appointment</a>
                     </div>
 
-                    <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+                    
         <div id="map"></div>
         <h3>Find Us Here</h3>
+
+ <div class="card-body">
+                    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title w-100 font-weight-bold">Sign up</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+
+
+
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email Address</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput4" placeholder="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">What would you like to do?</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+      <option>Make An Appointment</option>
+      <option>Contact Us</option>
+    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect2">What is the appointment about?</label>
+                                        <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>Checkup</option>
+      <option>Scale and Polish</option>
+      <option>Wisdom Teeth</option>
+      <option>Filling</option>
+      <option>Other</option>
+    </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Please Enter Any Additional Information</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    </div>
+                                </form>
+
+
+                                <div class="modal-footer d-flex justify-content-center">
+                                   
+
+                                    <button type="button" onclick="alert('Thank You')">Send your Request</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+        
     <!--div map element -->
    
     <script>
