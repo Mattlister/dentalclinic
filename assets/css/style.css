@@ -1,3 +1,7 @@
+/* fonts import */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Noto+Sans&display=swap');
+
 /* Logp */
 
 img {
@@ -54,4 +58,13 @@ img {
 }
  .btn {
     padding: 20px;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.p {
+    font-family: 'Noto Sans', sans-serif;
+
 }
