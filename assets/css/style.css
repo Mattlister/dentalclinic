@@ -13,18 +13,7 @@ img {
  
 }
 
-/*map settings */
- #map {
-   width: 31.25rem;
-   height: 15.625rem;
-   background-color: grey;
-   margin-left:auto; 
-   margin-right:auto;
-   border: 0.125rem solid #2ebddb;
-   padding-top: 0.938rem;
- }
-
- /* modal form group */
+/* modal form group */
 
 .form-group {
   background: #ffffff;
@@ -35,19 +24,16 @@ img {
   text-align: center;
 }
 
-/* Footers and padding */
-
-
-.border {
-  margin: 4.375rem;
-}
-
-.padding-footer {
-  padding: 1.875rem;
-}
- .btn {
-    padding: 1.25rem;
-}
+/*map settings */
+ #map {
+   width: 31.25rem;
+   height: 15.625rem;
+   background-color: grey;
+   margin-left:auto; 
+   margin-right:auto;
+   border: 0.125rem solid #2ebddb;
+   padding-top: 0.938rem;
+ }
 
 /* h3 styling */
 
@@ -64,10 +50,24 @@ p {
     padding: 3px;
     border-radius: 5px;
     
-
 }
 
 .row {
     padding: 0;
     margin: 0;
+} 
+
+/* Footers and padding */
+
+
+.border {
+  margin: 4.375rem;
 }
+
+.padding-footer {
+  padding: 1.875rem;
+}
+ .btn {
+    padding: 1.25rem;
+}
+
