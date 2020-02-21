@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Noto+Sans&display=swap');
 
-/* Logp */
+/* Hero Image */
 
 img {
     width: 7.183rem;
@@ -13,10 +13,7 @@ img {
  
 }
 
-/* Hero Image */
-
-
-
+/*map settings */
  #map {
    width: 31.25rem;
    height: 15.625rem;
@@ -27,6 +24,8 @@ img {
    padding-top: 0.938rem;
  }
 
+ /* modal form group */
+
 .form-group {
   background: #ffffff;
   padding: 1.25rem;
@@ -35,6 +34,8 @@ img {
   font-size: 1.563rem;
   text-align: center;
 }
+
+/* Footers and padding */
 
 
 .border {
@@ -48,10 +49,14 @@ img {
     padding: 1.25rem;
 }
 
+/* h3 styling */
+
 h3 {
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
 }
+
+/* font and content */
 
 p {
     font-family: 'Noto Sans', sans-serif;
