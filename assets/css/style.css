@@ -5,7 +5,7 @@
 /* Logp */
 
 img {
-    width: 125px;
+    width: 7.183rem;
     resize: both;
   overflow: auto;
 
@@ -31,34 +31,34 @@ img {
 }
 
  #map {
-   width: 80%;
-   height: 250px;
+   width: 31.25rem;
+   height: 15.625rem;
    background-color: grey;
    margin-left:auto; 
    margin-right:auto;
-   border: 2px solid #2ebddb;
-   padding-top: 15px;
+   border: 0.125rem solid #2ebddb;
+   padding-top: 0.938rem;
  }
 
 .form-group {
   background: #ffffff;
-  padding: 20px;
+  padding: 1.25rem;
   font-family: 'Oxygen', sans-serif;
   color: #6C7A89;
-  font-size: 25px;
+  font-size: 1.563rem;
   text-align: center;
 }
 
 
 .border {
-  margin: 70px;
+  margin: 4.375rem;
 }
 
 .padding-footer {
-  padding: 30px;
+  padding: 1.875rem;
 }
  .btn {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 h3 {
