@@ -8,6 +8,7 @@ img {
     width: 7.183rem;
     resize: both;
   overflow: auto;
+  padding-bottom: 20px;
 
  
 }
