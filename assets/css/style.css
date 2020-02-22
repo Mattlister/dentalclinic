@@ -29,7 +29,17 @@ img {
    width: 100%;
    height: 400px;
    background-color: grey;
+   padding-bottom: 0.313rem;
  }
+/* treatment table settings */
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid #2ebddb;
+}
+
 
 /* h3 styling */
 
@@ -43,8 +53,8 @@ h3 {
 p {
     font-family: 'Noto Sans', sans-serif;
     border: 2px solid #2ebddb;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
     
 }
 
@@ -54,6 +64,12 @@ p {
 } 
 
 .option {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.h4 {
     font-family: 'Noto Sans', sans-serif;
     padding: 3px;
     border-radius: 5px;
