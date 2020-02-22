@@ -26,13 +26,9 @@ img {
 
 /*map settings */
  #map {
-   width: 31.25rem;
-   height: 15.625rem;
+   width: 100%;
+   height: 400px;
    background-color: grey;
-   margin-left:auto; 
-   margin-right:auto;
-   border: 0.125rem solid #2ebddb;
-   padding-top: 0.938rem;
  }
 
 /* h3 styling */
@@ -56,6 +52,12 @@ p {
     padding: 0;
     margin: 0;
 } 
+
+.option {
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px;
+    border-radius: 5px;
+}
 
 /* Footers and padding */
 
