@@ -83,7 +83,8 @@ p {
 }
 
 .carousel .item {
-  height: 500px;
+  height: 400px;
+  
 }
 
 .item img {
@@ -92,6 +93,7 @@ p {
     top: 0;
     left: 0;
     min-height: 500px;
+    opacity: 0.5;
 }
 
 /* Footers and padding */
