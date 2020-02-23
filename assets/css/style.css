@@ -4,9 +4,7 @@
 
 /* Fonts used
 
-font-family: 'Arimo', ;
 font-family: 'Karla', ;
-font-family: 'Trade Winds', ;
 */
 
 
@@ -73,6 +71,7 @@ img {
     font-size: 4rem;
 }
 /* treatment table settings */
+
 table {
     border-collapse: collapse;
     padding: 1.25rem;
