@@ -144,6 +144,11 @@ Dental Clinic
 
 * I also used devtools in Firefox and Google Chrome. I ran my code through HTML and CSS validators and JavaScript was tested using JSHint.
 
+### Issues found
+
+* I have used some elements such as the <br> tag instead of padding due to some css padding changes didn't respond as I wanted. 
+
+
 
 ### Code
 
