@@ -23,7 +23,7 @@ img {
 }
 
 html {
-scroll-behaviour: smooth;
+scroll-behavior: smooth;
 }
 /* Box icons */
 
@@ -61,6 +61,12 @@ img {
    padding-bottom: 0.313rem;
    width: 100%;
  }
+
+ #fab {
+    position: absolute;
+    right: 25px;
+    font-size: 4rem;
+}
 /* treatment table settings */
 table {
     border-collapse: collapse;
@@ -157,7 +163,7 @@ h3 {
     
 }
 
-.h4 {
+h4 {
     border-radius: 5px;
     font-family: 'Noto Sans', sans-serif;
     padding-right: 90px;
