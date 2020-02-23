@@ -56,17 +56,36 @@ table {
     padding: 1.25rem;
 }
 
+/* Table design */
+
 table, td, th {
-    border: 1px solid #2ebddb;
+    border: 2px solid #2ebddb;
     padding: 0.625rem;;
-  text-align: left;
-  margin-left:auto; 
+    text-align: left;
+    margin-left:auto; 
     margin-right:auto;
     padding-bottom: 1.25rem;
-    border-radius: 0.313rem;
+    border-radius: 5px;
+}
+.button {
+  background-color: #16a2b8;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 0.313rem;
 }
 
-
+.button:hover {
+  background-color: #13899d;
+  color: white;
+}
 
 
 /* font and content */
@@ -99,6 +118,7 @@ h1 {
     font-family: 'Karla';
     color: #245396;
     border: 2px solid #2ebddb;
+    border-radius: 5px;
 
 }
 
