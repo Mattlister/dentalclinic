@@ -22,6 +22,9 @@ img {
   width: 7.183rem;
 }
 
+html {
+scroll-behaviour: smooth;
+}
 /* Box icons */
 
 img {
@@ -31,6 +34,11 @@ img {
   margin-right: auto;
   width: 80px;
   
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999999;
 }
 
 
@@ -161,6 +169,15 @@ h5 {
   margin-left: 10;
   margin-right: 0;
   text-align: center;
+}
+
+h6 {
+    border-radius: 5px;
+    color: #245396;
+    font-family: 'Karla';
+    font-size: 2.00rem;
+    font-style: italic;
+    text-align: center;
 }
 
 /* carousel settings */
