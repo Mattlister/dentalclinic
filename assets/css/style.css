@@ -55,6 +55,8 @@ img {
   text-align: center;  
 }
 
+/* id's */
+
 /* map settings */
  #map {
    background-color: grey;
@@ -62,6 +64,8 @@ img {
    padding-bottom: 0.313rem;
    width: 100%;
  }
+
+/* arrow page to top icon */
 
  #fab {
     position: absolute;
