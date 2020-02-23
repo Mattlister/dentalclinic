@@ -114,11 +114,11 @@ Dental Clinic
 3. At the top the page, where the menu items are, you'll see Settings.
 4. Once selected, scroll down the page to the GitHub pages section
 5. Under Source, click the drop-down menu labelled and select Master Branch
-6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
+6. When you select Master Branch, the page will automatically be refreshed and Dental Clinic is then deployed.
 7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
 
 
-1. Choose the following link: [Design and Conquer GitHub repository](https://github.com/Mattlister/dentalclinic)
+1. Choose the following link: [Dental clinic repository](https://github.com/Mattlister/dentalclinic)
 2. Under repository name, select "Clone or download"
 3. You'll see Clone in the HTTPs section, copy the URL for the repository.
 4. In your own IDE, open Git Bash.
