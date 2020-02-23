@@ -15,7 +15,12 @@ html {
 scroll-behavior: smooth;
 }
 
-
+img {
+  overflow: auto;
+  padding-bottom: 20px;
+  resize: both;
+  width: 7.183rem;
+}
 
 /* Box icons */
 
