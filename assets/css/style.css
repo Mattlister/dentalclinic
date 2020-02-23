@@ -143,11 +143,16 @@ h3 {
 
 .h4 {
     font-family: 'Noto Sans', sans-serif;
-    padding: 3px;
+    padding-right: 90px;
     border-radius: 5px;
 }
 
-
+h5 {
+  display: block;
+  margin-left: 10;
+  margin-right: 0;
+  text-align: center;
+}
 
 /* carousel settings */
 
