@@ -168,6 +168,7 @@ h5 {
 .carousel .item {
   height: auto;
   padding: 10px;
+  padding-bottom: 25px;
   width: auto;
   
 }
