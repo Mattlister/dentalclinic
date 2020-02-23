@@ -1,9 +1,6 @@
 /* fonts import */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Muli|Noto+Sans&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css?family=Arimo|Karla|Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla|Trade+Winds&display=swap');
 
 /* Fonts used
 
@@ -14,17 +11,12 @@ font-family: 'Trade Winds', ;
 
 /* Hero Image */
 
-img {
-
-  overflow: auto;
-  padding-bottom: 20px;
-  resize: both;
-  width: 7.183rem;
-}
-
 html {
 scroll-behavior: smooth;
 }
+
+
+
 /* Box icons */
 
 img {
@@ -195,7 +187,6 @@ h6 {
   width: auto;
   
 }
-
 
 .item img {
     left: 0;
