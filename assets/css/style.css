@@ -130,12 +130,14 @@ h2 {
     font-size: 1.25rem;
     text-align: center;
     font-family: 'Karla';
+    
 }
 
 /* h3 styling */
 
 h3 {
     font-style: italic;
+    font-size: 1.25rem;
     font-family: 'Noto Sans', sans-serif;
     text-align: center;
     color: black;
