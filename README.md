@@ -1,4 +1,4 @@
-# dentalclinic
+# Dental Clinic
 
 Dental Clinic
 
@@ -12,6 +12,8 @@ Dental Clinic
 
 * [Project Design](#Project-Design)
 * [User Objects](#User-Objects)
+* [Deployment](#Deployment)
+* [Testing](#Testing)
 
 
 
@@ -60,6 +62,18 @@ Dental Clinic
 * The user can get in touch to make an appointment
 * The user can find the dentist by using the map
 
+### This project is the best way to help them achieve these things because:
+
+* The website has one page that has all navigation and options direct from the one page.
+
+
+### This website is:
+
+* Easy to navigate through.
+
+* Allows the user to work through the site with an easy to understand front end design.
+  Provides the user the information they need without it being overwhelming.
+  Booking forms and Get in touch forms are clear and concise for when the user wants to book a holiday
 
 
 ### Technologies Used
@@ -82,12 +96,60 @@ Dental Clinic
 
 * Favicons was used for the URL toolbar icon
 
+### Deployment
+
+* This project was developed using the gitpod development software. The data is stored in github.
+
+* The project was regularly pushed to GitHub repository https://github.com/Mattlister/dentalclinic and 
+  published to GitHub pages using the GitHub settings.
+
+### Deployment to Github
+
+### When deploying Dental Clinic from the 
+
+[GitHub repository](https://github.com/Mattlister/dentalclinic), I used the following process:
+
+1. Log into GitHub.
+2. From the list of GitHub repositories, select Mattlister/dentalclinic
+3. At the top the page, where the menu items are, you'll see Settings.
+4. Once selected, scroll down the page to the GitHub pages section
+5. Under Source, click the drop-down menu labelled and select Master Branch
+6. When you select Master Branch, the page will automatically be refreshed and Design and Conquer is then deployed.
+7. Once done, scroll back down to the GitHub pages section and you will be able to retrieve the link to the deployed website.
+
+
+1. Choose the following link: [Design and Conquer GitHub repository](https://github.com/Mattlister/dentalclinic)
+2. Under repository name, select "Clone or download"
+3. You'll see Clone in the HTTPs section, copy the URL for the repository.
+4. In your own IDE, open Git Bash.
+5. Change the current working directory to your location of choice where you'd like the directory to be made.
+6. Type the command git clone, and then paste the URL copied in step 3.
+7. Then Press Enter and your local clone will be created.
+
+
+### I used default commands to push to Github such as:
+
+* git status when checking what needed uploading.
+* git commit -m "" with the named update between the quotes for anyone reading what changes I made. A short piece of info helps understand
+* the changes I make.
+* git push -u origin master which then pushes my update and I then need to enter my username and password for security.
+
+
+
+### Testing
+
+* I tested the website half way through the project on Mozilla Firefox, Google Chrome and Safari. I was always using Google Chrome and found no issues when 
+  using this browser. The website worked to the normal standard on Mozilla Firefox as well. So far, So good. But, On Apple's Safari browser, there were bugs 
+  displayed. 
+
+* I also used devtools in Firefox and Google Chrome. I ran my code through HTML and CSS validators and JavaScript was tested using JSHint.
+
+
 ### Code
 
 
 * HTML - All code produced by Matthew Lister except for the content such as videos and images. These were searched and found on Google Chrome and
-then added into iframe and img source code which I had put together. The modal formats and forms were taken from my MS1 and edited to correspond
-to the needs of this website. I used script tags from Google Fonts to display the correct formatted fonts.
+then added into iframe and img source code which I had put together. 
 
 ### Disclaimer
 
