@@ -116,6 +116,7 @@ p {
     
 }
 
+
 /* Testimonials heading */
 
 h1 {
@@ -142,8 +143,8 @@ h2 {
 h3 {
     color: black;
     font-family: 'Noto Sans', sans-serif;
-    font-style: italic;
     font-size: 1.25rem;
+    font-style: italic;
     text-align: center;
     
 }
