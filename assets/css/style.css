@@ -8,9 +8,6 @@ font-family: 'Karla', ;
 */
 
 
-html {
-scroll-behavior: smooth;
-}
 
 /* Hero Image styling */
 
@@ -32,10 +29,18 @@ img {
   
 }
 
+html {
+scroll-behavior: smooth;
+}
+
 /* navbar styling */
 
 
-
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999999;
+}
 
 /* modal form group */
 
