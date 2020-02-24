@@ -10,6 +10,8 @@ function initMap() {
   var marker = new google.maps.Marker({position: Barnsley, map: map});
 }
 
+// Code below allows the modal to appear in front of the menu as it's hidden on a mobile device preventing a user from entering information.
+
  $("form :input").each(function(index, elem) {
     var eId = $(elem).attr("id");
     var label = null;
