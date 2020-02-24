@@ -87,11 +87,7 @@ table, td, th {
 
 /* classes */
 
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 999999;
-}
+
 
 .button {
   background-color: #16a2b8;
