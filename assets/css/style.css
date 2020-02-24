@@ -34,11 +34,7 @@ img {
 
 /* navbar styling */
 
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 999999;
-}
+
 
 
 /* modal form group */
