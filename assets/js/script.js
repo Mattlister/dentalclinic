@@ -18,3 +18,10 @@ function initMap() {
         $(label).remove();
     }
  });
+
+ $("#login-modal", context).appendTo("body").css("z-index", "2000").focus();
+   
+        jQuery(document).ready(function($) {
+        	$("#login-modal").modal('show').focus();
+        });
+      
